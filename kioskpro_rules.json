@@ -1,8 +1,8 @@
 {
-  "version": "2.0.0",
-  "latestAppVersion": "2.0.0",
+  "version": "2.0.1",
+  "latestAppVersion": "2.0.1",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
-  "releaseNotes": "KioskPro v2.0 - Auto GPS Connect, Zero-Mouse Navigation, Verified Publisher",
+  "releaseNotes": "KioskPro v2.0.1 - Fixed Auto-Login false transaction popup, Added Peri Service auto-start and Localhost protection.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
