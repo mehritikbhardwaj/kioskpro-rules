@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "latestAppVersion": "2.0.0",
+  "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
+  "releaseNotes": "KioskPro v2.0 - Auto GPS Connect, Zero-Mouse Navigation, Verified Publisher",
+  "selectors": {
+    "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
+    "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
+    "gps_proceed": "button:contains('PROCEED'), input[value*='PROCEED'], button.proceedbutton",
+    "aeps_proceed": "button.proceedbutton, button#btnProceed",
+    "login_proceed": "button[type='submit'], button.proceedbutton"
+  },
+  "dynamicPatches": [
+    {
+      "name": "SBI_GPS_Handler",
+      "urlFilter": "unify",
+      "script": "// Dynamic patch injected automatically on all SBI Unify pages"
+    }
+  ],
+  "customJs": "// Put any emergency JavaScript hotfix here. It will run on all CSP client machines immediately."
+}
