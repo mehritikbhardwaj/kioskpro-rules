@@ -1,8 +1,8 @@
 {
-  "version": "2.0.4",
-  "latestAppVersion": "2.0.4",
+  "version": "2.0.5",
+  "latestAppVersion": "2.0.5",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
-  "releaseNotes": "KioskPro v2.0.4 - Full Production Battle-Tested State Machines restored for AEPS Flag Registration, Debit Card / ATM / YONO Cash, Passbook Printing / Issue / Barcode Mapping, Reports, and Transaction History with zero dummy scripts.",
+  "releaseNotes": "KioskPro v2.0.5 - Instant Dialog Auto-Close on Enter/Submit & Automatic Web Serial GPS Dongle Selection with zero manual prompts.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
