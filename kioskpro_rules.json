@@ -1,8 +1,8 @@
 {
-  "version": "2.0.3",
-  "latestAppVersion": "2.0.3",
+  "version": "2.0.4",
+  "latestAppVersion": "2.0.4",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
-  "releaseNotes": "KioskPro v2.0.3 - Full Aadhaar Seeding / De-Seeding & Money Transfer multi-step automation state machine restored with React synthetic event engine, automatic beneficiary selection, and agent authentication auto-fill.",
+  "releaseNotes": "KioskPro v2.0.4 - Full Production Battle-Tested State Machines restored for AEPS Flag Registration, Debit Card / ATM / YONO Cash, Passbook Printing / Issue / Barcode Mapping, Reports, and Transaction History with zero dummy scripts.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
