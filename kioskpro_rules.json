@@ -1,8 +1,8 @@
 {
-  "version": "2.0.2",
-  "latestAppVersion": "2.0.2",
+  "version": "2.0.3",
+  "latestAppVersion": "2.0.3",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
-  "releaseNotes": "KioskPro v2.0.2 - Automatic Peri Service & Biometric RD Service startup on dashboard load, full Stop/Restart service engine with elevated support.",
+  "releaseNotes": "KioskPro v2.0.3 - Full Aadhaar Seeding / De-Seeding & Money Transfer multi-step automation state machine restored with React synthetic event engine, automatic beneficiary selection, and agent authentication auto-fill.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
