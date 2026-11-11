@@ -1,8 +1,8 @@
 {
-  "version": "2.0.7",
-  "latestAppVersion": "2.0.7",
+  "version": "2.0.8",
+  "latestAppVersion": "2.0.8",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
-  "releaseNotes": "KioskPro v2.0.7 - Smart Continuous Biometric Auto-Capture Engine, Automatic UIDAI Consent Checkbox Verification, Passbook Barcode Fix & Action Confirmations.",
+  "releaseNotes": "KioskPro v2.0.8 - Enhanced Agent Login Biometric Auto-Capture (touch the finger print sensor), Pointer & Mouse Event sequence dispatch, and zero-click sensor activation.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
