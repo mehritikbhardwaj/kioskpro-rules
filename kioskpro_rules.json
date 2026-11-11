@@ -1,8 +1,8 @@
 {
-  "version": "2.0.6",
-  "latestAppVersion": "2.0.6",
+  "version": "2.0.7",
+  "latestAppVersion": "2.0.7",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
-  "releaseNotes": "KioskPro v2.0.6 - Live Vercel Admin Panel Integration, Remote Client License Management & Instant Multi-User Login Setup.",
+  "releaseNotes": "KioskPro v2.0.7 - Smart Continuous Biometric Auto-Capture Engine, Automatic UIDAI Consent Checkbox Verification, Passbook Barcode Fix & Action Confirmations.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
