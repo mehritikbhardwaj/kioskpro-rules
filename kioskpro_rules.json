@@ -1,9 +1,9 @@
 {
-  "version": "2.1.9",
-  "latestAppVersion": "2.1.9",
+  "version": "2.2.0",
+  "latestAppVersion": "2.2.0",
   "appDownloadUrl": "https://kioskpro-admin-panel.vercel.app/download",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.1.9 - Fix Loan Deposit Send Verification Code auto-click, suppress premature Transaction Successful popup on intermediate enquiry, and add 5s auto-submit countdown on completion popup.",
+  "releaseNotes": "KioskPro v2.2.0 - Fix OTP popup duplicate/reopening loop, eliminate double Send Verification Code SMS, auto-advance Confirm Details screen, and instant Transaction Password auto-fill.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
