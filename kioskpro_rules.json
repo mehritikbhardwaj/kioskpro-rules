@@ -1,9 +1,9 @@
 {
-  "version": "2.2.2",
-  "latestAppVersion": "2.2.2",
+  "version": "2.2.3",
+  "latestAppVersion": "2.2.3",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.2.2 - Strictly restrict Loan Deposit to Enter+L shortcut only, remove extraneous triggers, and finalize auto-updater & biometric reliability.",
+  "releaseNotes": "KioskPro v2.2.3 - Added Enter+V (View Limit), Enter+P (PAN Updation), Enter+K (KYC Updation) shortcuts with smart portal navigation.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
