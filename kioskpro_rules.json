@@ -1,9 +1,9 @@
 {
-  "version": "2.2.5",
-  "latestAppVersion": "2.2.5",
+  "version": "2.2.6",
+  "latestAppVersion": "2.2.6",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.2.5 - Capture all unifyapp screens including Login, Fingerprint, GPS and Dashboard without restriction.",
+  "releaseNotes": "KioskPro v2.2.6 - Enhanced Screen Intelligence: full capture of radio options (Fingerprint/IRIS/CIF), select dropdowns, clickable action controls, and data table columns.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
