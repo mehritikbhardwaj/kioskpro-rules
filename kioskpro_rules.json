@@ -1,9 +1,9 @@
 {
-  "version": "2.2.7",
-  "latestAppVersion": "2.2.7",
+  "version": "2.2.8",
+  "latestAppVersion": "2.2.8",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.2.7 - Automatic Pixel-Perfect Visual Screenshots synced to Admin Panel with deep DOM Screen Intelligence.",
+  "releaseNotes": "KioskPro v2.2.8 - Smart Hybrid Architecture: Lightweight passive DOM metadata capture + Admin Remote Screenshot toggle on demand + Ctrl+Shift+S dev hotkey.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
