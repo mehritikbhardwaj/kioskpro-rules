@@ -1,9 +1,9 @@
 {
-  "version": "2.2.3",
-  "latestAppVersion": "2.2.3",
+  "version": "2.2.4",
+  "latestAppVersion": "2.2.4",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.2.3 - Added Enter+V (View Limit), Enter+P (PAN Updation), Enter+K (KYC Updation) shortcuts with smart portal navigation.",
+  "releaseNotes": "KioskPro v2.2.4 - Automatic DOM Screen Intelligence, Loan Deposit Send Verification Code retry & OTP sync fixes, and DataPopup auto-close improvements.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
