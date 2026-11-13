@@ -1,9 +1,9 @@
 {
-  "version": "2.2.4",
-  "latestAppVersion": "2.2.4",
+  "version": "2.2.5",
+  "latestAppVersion": "2.2.5",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.2.4 - Automatic DOM Screen Intelligence, Loan Deposit Send Verification Code retry & OTP sync fixes, and DataPopup auto-close improvements.",
+  "releaseNotes": "KioskPro v2.2.5 - Capture all unifyapp screens including Login, Fingerprint, GPS and Dashboard without restriction.",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
