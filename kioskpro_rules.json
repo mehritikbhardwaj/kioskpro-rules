@@ -1,9 +1,9 @@
 {
-  "version": "2.2.9",
-  "latestAppVersion": "2.2.9",
+  "version": "2.3.0",
+  "latestAppVersion": "2.3.0",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.2.9 - Instant auto-screenshot sync for every screen, 10s live polling for Remote Toggle, increased network timeouts.",
+  "releaseNotes": "KioskPro v2.3.0 - Comprehensive CIF Flow Audit & Hardening (Reactive modal handlers, CBS account wait buffer, Mini Statement auto-view).",
   "selectors": {
     "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
