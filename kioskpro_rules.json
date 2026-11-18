@@ -1,15 +1,18 @@
 {
-  "version": "2.3.0",
-  "latestAppVersion": "2.3.0",
+  "version": "2.3.1",
+  "latestAppVersion": "2.3.1",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.3.0 - Comprehensive CIF Flow Audit & Hardening (Reactive modal handlers, CBS account wait buffer, Mini Statement auto-view).",
+  "releaseNotes": "KioskPro v2.3.1 - Ground Truth DOM Hardening: Safe Radio label switching (Account & AEPS), CIF vs Amount input precedence, GPS button fix & instant auto-fill stability.",
   "selectors": {
-    "gps_connect": "button:contains('CONNECT'), input[value*='CONNECT']",
+    "gps_connect": "button:contains('CONNECT DEVICE'), button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
     "gps_proceed": "button:contains('PROCEED'), input[value*='PROCEED'], button.proceedbutton",
     "aeps_proceed": "button.proceedbutton, button#btnProceed",
-    "login_proceed": "button[type='submit'], button.proceedbutton"
+    "login_proceed": "button[type='submit'], button.proceedbutton",
+    "cif_input": "input[placeholder*='CIF' i], #outlined-disabled",
+    "amount_input": "input[placeholder*='Amount' i], #outlined-basic",
+    "receipt_another_payment": "button:contains('ANOTHER PAYMENT')"
   },
   "dynamicPatches": [
     {
