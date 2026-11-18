@@ -1,9 +1,9 @@
 {
-  "version": "2.3.1",
-  "latestAppVersion": "2.3.1",
+  "version": "2.3.2",
+  "latestAppVersion": "2.3.2",
   "appDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro.exe",
   "patchDownloadUrl": "https://github.com/mehritikbhardwaj/kioskpro-rules/releases/latest/download/KioskPro_Patch.zip",
-  "releaseNotes": "KioskPro v2.3.1 - Ground Truth DOM Hardening: Safe Radio label switching (Account & AEPS), CIF vs Amount input precedence, GPS button fix & instant auto-fill stability.",
+  "releaseNotes": "KioskPro v2.3.2 - Autonomous Screen Intelligence (One-time Full HTML dump per unique screen, live DevTools inspection & export).",
   "selectors": {
     "gps_connect": "button:contains('CONNECT DEVICE'), button:contains('CONNECT'), input[value*='CONNECT']",
     "gps_get_location": "button:contains('GET LOCATION'), input[value*='GET LOCATION']",
